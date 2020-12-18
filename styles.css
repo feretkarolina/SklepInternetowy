@@ -1,0 +1,198 @@
+body {
+    background-color: yellow;
+    margin: 0 !important;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+.content {
+    width: 80%;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rightBar {
+    width: 20%;
+    background: bisque;
+}
+.menu {
+    height: 10vh;
+    background: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menuItem {
+    background: lightgreen;
+    width: 10%;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.wiersz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 3px solid red;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    min-height: 40vh;
+    flex-wrap: wrap;
+}
+
+.product{
+    background-color: darkgray;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-top: 4px;
+    width: 250px;
+    height: 250px;
+}
+
+.photo{
+    background-color: pink;
+    height: 15vh;
+    width: 30vh;
+    margin-top: 2vh;
+}
+
+.name{
+    background-color: lightgray;
+    height: 5vh;
+    width: 30vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.twice {
+    background-color: lightgray;
+    height: 5vh;
+    width: 30vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price {
+    background-color: gray;
+    height: 3vh;
+    width: 9vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.zakupy {
+    display: flex;
+    height: 20%;
+    border: 3px solid red;
+    flex-direction: column;
+}
+
+.detale {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    border: 3px solid red;
+    justify-content: space-evenly;
+}
+
+.kup {
+    background-color: yellowgreen;
+    height: 6vh;
+    width: 39vh;
+    flex-direction: row;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    justify-content: space-around;
+}
+
+.kupprzycisk {
+    background-color: gray;
+    height: 3vh;
+    width: 10vh;
+    text-align: center;
+    border: 3px solid red;
+    flex-direction: row;
+    float: left;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+
+.cena {
+    background-color: lightgray;
+    height: 6vh;
+    width: 39vh;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+
+.usun {
+    background-color: lightgray;
+    height: 10vh;
+    width: 39vh;
+    flex-direction: row;
+}
+
+.jeden {
+    background-color: white;
+    height: 5vh;
+    width: 39vh;
+    flex-direction: row;
+}
+
+.lewy {
+    background-color: gray;
+    height: 3vh;
+    width: 25vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 4px;
+    border: 3px solid red;
+    float: left;
+    font-size: 15px;
+}
+
+.prawy {
+    background-color: gray;
+    height: 3vh;
+    width: 9vh;
+    margin: auto;
+    text-align: center;
+    padding-top: 4px;
+    border: 3px solid red;
+    float: left;
+    font-size: 15px;
+
+
+
+}
+
+.dwa {
+    background-color: yellow;
+    height: 5vh;
+    width: 39vh;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
